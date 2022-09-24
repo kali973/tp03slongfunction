@@ -3,7 +3,7 @@
 
 Compléter le programme suivant en écrivant une fonction slong() qui calcule la longueur d'une chaîne de caractères. On rappelle qu'une chaîne de caractères est une suite de caractères terminée par un zéro (la valeur numérique 0, pas le caractère '0').
 
-Modifiez le Makefile et compilez (remarque: vous pouvez juste mettre à jour le Makefile en changeant les valeurs de PROG et SOURCES. Cependant il est également possible de compiler plusieurs programme en rajoutant des règles dans le Makefile).
+Modifiez le Makefile et compilez (remarque : vous pouvez juste mettre à jour le Makefile en changeant les valeurs de PROG et SOURCES. Cependant il est également possible de compiler plusieurs programme en rajoutant des règles dans le Makefile).
 
 #include <stdio.h>
 
