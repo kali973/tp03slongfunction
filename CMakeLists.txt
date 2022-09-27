@@ -3,4 +3,4 @@ project(tp03slongfunction)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(tp03slongfunction main.cpp)
+add_executable(tp03slongfunction main.c)

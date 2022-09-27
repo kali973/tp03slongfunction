@@ -1,10 +1,10 @@
 #include <stdio.h>
-#include <cstring>
+#include <string.h>
 
-int slong(char *s1);
+int slong(char *s1); // Si on utilisait un pointeur on devrait faire un free
 
 int main() {
-    char *s1 = "ceci est litteral";
+    const char *s1 = "Ma chaîne rêvée";
     char s2[] = "ceci est un tableau";
 
     printf("longueur de %s = %d \n", s1, slong(s1));
