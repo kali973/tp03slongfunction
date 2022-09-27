@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int slong(char *s1);
+int slong(const char *s1); // Pour une variable const on ne peut pas faire de write sur un pointeur
 
 int main() {
     const char *s1 = "Ma chaîne rêvée";
@@ -12,6 +12,6 @@ int main() {
     return 0;
 }
 
-int slong(char *s1) {
+int slong(const char *s1) {
     return strlen(s1);
 }
