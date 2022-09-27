@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int slong(char *s1); // Si on utilisait un pointeur on devrait faire un free
+int slong(char *s1);
 
 int main() {
     const char *s1 = "Ma chaîne rêvée";
