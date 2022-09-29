@@ -1,4 +1,6 @@
-3. Calcul de la longueur d'une chaîne de caractères
+Gilles COUTARD
+
+Calcul de la longueur d'une chaîne de caractères
 
 Compléter le programme suivant en écrivant une fonction slong() qui calcule la longueur d'une chaîne de caractères. On
 rappelle qu'une chaîne de caractères est une suite de caractères terminée par un zéro (la valeur numérique 0, pas le
